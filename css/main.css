@@ -1,7 +1,10 @@
-/* Убрал скролл бар */
-* {
-    border-radius: 5px;
+a,li {
+    z-index: 100;
 }
+* {
+    border-radius: 4px;
+}
+/* Убрал скролл бар */
 body::-webkit-scrollbar {
     display: none; 
 }
@@ -15,15 +18,14 @@ a {
     transition: 0.5s;
     color: #f1f1bf;
 }
-a:hover {
 
-}
 .nanigation {
     display: flex;
     justify-content: center;
     gap: 1%;
     margin-top: 2%;
     margin-bottom: 2%;
+    cursor: pointer;
 }
 .nav-button {
     background-color: #863348;

@@ -31,6 +31,8 @@
         height: 8vw;
     }
     a {
+        width: 100%;
+        height: 100%;
         font-size: 3vw;
     }
     /* Первый блок главного меню */
@@ -243,3 +245,4 @@
         text-align: center;
     }
 }
+
