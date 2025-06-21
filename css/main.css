@@ -1,0 +1,71 @@
+/* Убрал скролл бар */
+* {
+    border-radius: 5px;
+}
+body::-webkit-scrollbar {
+    display: none; 
+}
+/* навигация по сайту */
+li {
+    list-style: none;
+}
+a {
+    font-size: 1vw;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #f1f1bf;
+}
+a:hover {
+
+}
+.nanigation {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.nav-button {
+    background-color: #863348;
+    width: 7vw;
+    height: 1.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.48);
+}    
+/* Футер */
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    max-height: 3.5vw;
+    color: white;
+    gap: 60vw;
+    padding: 0.3vw;
+    font-size: 1vw;
+    height: 3.6vw;
+    margin-top: 8.5vw;
+}
+.footer-content {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+h1,h2,h3,h4,p,a {
+    z-index: 1;
+}
